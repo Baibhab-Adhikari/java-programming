@@ -62,7 +62,7 @@ class Div {
     }
 }
 
-class Main__ {
+class Main {
 
     public static void main(String[] args) {
         Add add = new Add();

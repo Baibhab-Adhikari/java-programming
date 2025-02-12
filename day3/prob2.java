@@ -29,7 +29,7 @@ class Orange extends Fruit {  // child class
     }
 }
 
-class Main_ {
+class Main {
 
     public static void main(String[] args) {
         Orange orange = new Orange();
