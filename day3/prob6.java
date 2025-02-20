@@ -11,8 +11,8 @@ class Animal {
 class Dog extends Animal {
     String name, breed;
 
-    Dog(String x, String name, String breed) {
-        super(x);
+    Dog(String type, String name, String breed) {
+        super(type);
         this.name = name;
         this.breed = breed;
     }
@@ -24,7 +24,7 @@ class Dog extends Animal {
     }
 }
 
-class Main {
+public class prob6 {
     public static void main(String[] args) {
         Dog d1 = new Dog("Dog", "Emily", "Street Dog");
         Dog d2 = new Dog("Dog", "Tiger", "Street Dog");

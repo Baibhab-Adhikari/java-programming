@@ -24,7 +24,7 @@ class Cat extends Animal {
         System.out.println("Colour: " + colour);
     }
 }
-class Main {
+class prob5 {
 
     public static void main(String[] args) {
         Cat cat1 = new Cat();

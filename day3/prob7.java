@@ -27,7 +27,7 @@ class Frac extends Deno {
     }
 }
 
-class Main {
+class prob7 {
     public static void main(String[] args) {
         Frac f1 = new Frac(3, 4);
         Frac f2 = new Frac(5, 6);
