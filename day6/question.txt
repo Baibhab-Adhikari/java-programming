@@ -1,0 +1,5 @@
+1. Write a java program to define a class Division with two member variables dividend and divisor. Define a method getinput() to take input the values in member variables. Write a method doDivision() to perform division operation. If the divisor is taken as zero then an exception will be thrown 'Arithmetic Exception', else it will print the result of the operation. Handle the exception using try, catch and finally block.
+
+2. Write a java program to define a student class with variables stu_name, stu_program, stu_semester. Define getData() method to take input the records of a student from the user. Use BufferedReader to take input from the user. The exception occurs here is IOException, handle the exception using the throws keyword. Define show() method to print the record of 3 students.
+
+3. Write a java program to define a class sortArray with two member variables: one array of integer type and size. initialize the array and size in constructor. define method sort to sort the array in ascending order. if the loop exceed the size then 'arrayindexoutofboundsexception' occur, else the sorting is done. Define a method show() to display the sorted array.
