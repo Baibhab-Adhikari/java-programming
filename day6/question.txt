@@ -3,3 +3,12 @@
 2. Write a java program to define a student class with variables stu_name, stu_program, stu_semester. Define getData() method to take input the records of a student from the user. Use BufferedReader to take input from the user. The exception occurs here is IOException, handle the exception using the throws keyword. Define show() method to print the record of 3 students.
 
 3. Write a java program to define a class sortArray with two member variables: one array of integer type and size. initialize the array and size in constructor. define method sort to sort the array in ascending order. if the loop exceed the size then 'arrayindexoutofboundsexception' occur, else the sorting is done. Define a method show() to display the sorted array.
+
+4. Write a java program to implement user defined exception.
+
+5. Write a java program to define a class BankAccount with member variables cus_name, cus_acc, balance. The methods are:
+    a> getData() to initialize the variables
+    b> showData() to show record of the customer.
+    c> deposit() to deposit the amount and update the balance, if amount <= 0, then throw an exception named "WrongAmount" and print the alert message.
+    d> withdraw() to withdraw amount and update balance, if amount > balance, throw an exception named "InsufficientBalance" and print the alert message.
+Write the main class to define main() method where create an object of BankAccount class and call the methods.
