@@ -12,3 +12,17 @@
     c> deposit() to deposit the amount and update the balance, if amount <= 0, then throw an exception named "WrongAmount" and print the alert message.
     d> withdraw() to withdraw amount and update balance, if amount > balance, throw an exception named "InsufficientBalance" and print the alert message.
 Write the main class to define main() method where create an object of BankAccount class and call the methods.
+
+6.Write a java program to define a class StudentGrade with member variables stu_name, stu_grade, grade, marks. The methods are:
+    a> getData() to input values for variables using the BufferedReader class (use throws). if the marks enter is not within range (0-100), then throw an exception called WrongMark and print the alert message. If the grade not in O, A+, A, B+, B, C+, C, P, F
+    then call exception "InvalidGrade" and print the alert message.
+    b> matchGrade() to match marks and grade as given in the following table. If it does not match then throw exception "GradeMismatch" : marks | grade
+                    90-100      O
+                    80-89       A+
+                    70-79       A
+                    60-69       B+
+                    50-59       B
+                    40-49       C
+                    30-39       P
+                    20-29       F
+    c> showData() to display the record of student.
