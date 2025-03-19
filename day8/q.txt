@@ -1,0 +1,9 @@
+ps1> Wap in java to enter java program to define a class "Item" with member variables name, quantity, price as string, int, double variables. Define a method getData() to take input using the Buffer reader in all the variables. Define a method showData() to display the record of the item. Define a method calPrice() to find the total price of three items taken input from user
+
+ps2> Wap in java to enter java program define a class "Hotel" with member variable hotel list which is of Arraylist type & methods are:
+1)getItem() this is used to take the input name of the hotel from the user & insert  in the hotel list 
+2)throw-new-it shows the list of hotel
+3)insert-new-hotel input the name of a new hotel & add in the hotel list 
+4) change-list -change name of the hotel at 3rd index enter the new name 
+5)remove- list remove the name of hotel of 2nd index
+In each method call the show.hotel() to show the updated hotel list
