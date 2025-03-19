@@ -7,3 +7,10 @@ ps2> Wap in java to enter java program define a class "Hotel" with member variab
 4) change-list -change name of the hotel at 3rd index enter the new name 
 5)remove- list remove the name of hotel of 2nd index
 In each method call the show.hotel() to show the updated hotel list
+
+ps3> Write a program in Java to define a class to-Do-List that consist a member variable task of type vector. The methods are:
+    1> addTask() to get input from the user and add to the task vector
+    2> showTask() to show each task in a tabular format with serial number.
+    3> insertTask() to a new task at given index by the user.
+    4> delTask() remove/delete the specific task given by the user.
+After insertTask and delTask, call the showTask.
